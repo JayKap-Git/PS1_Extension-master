@@ -1,0 +1,22 @@
+{
+    "name": "BITS PS1 Helper",
+    "description": "Sort, Explore and Share PS1 Preferences with ease! Modified for PS1 by Jayant Kapoor (f20231099@pilani.bits-pilani.ac.in)",
+    "version": "1.1",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "assets/icon.png"
+    },
+    "web_accessible_resources": [{
+      "resources": ["excel.json"],
+      "matches": ["https://psms.bits-pilani.ac.in/*"]
+    }],
+    "content_scripts": [
+      {
+        "js": ["content.js", "public/xlsx.full.min.js"],
+        "matches": [
+          "https://psms.bits-pilani.ac.in/*"
+        ]
+      }
+    ]
+}
