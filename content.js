@@ -338,7 +338,7 @@ function fill_details(opt, proj_index) {
         proj_field = document.getElementById('extension_projlist').children[proj_index + 1].disabled = true;
 
         var project = station_proj_map.get(opt_name)[proj_index];
-        branch_field.innerHTML = project["Project Domain"] || "N/A"
+        branch_field.innerHTML = project["Tags"] || "N/A"
         station_field.innerHTML = project["Station Name"] || "N/A"
         city_field.innerHTML = project["City"] || "N/A"
         domain_field.innerHTML = project["Domain"] || "N/A"

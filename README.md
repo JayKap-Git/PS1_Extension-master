@@ -54,3 +54,8 @@ While we wait for the extension to get approved on the Chrome Store, the only wa
 HOW IT WORKS: <br/>
 Excel file "List of project titles and description (April 13th, 2025)" is converted to JSON and uploaded in it<br/>
 <br/>
+
+**GitHub Repository:** <br/>
+PS1 Extension: [https://github.com/JayKap-Git/PS1_Extension-master](https://github.com/JayKap-Git/PS1_Extension-master) <br/>
+Original PS2 Extension: [https://github.com/yvsharma02/PS_Extension](https://github.com/yvsharma02/PS_Extension)
+<br/>
