@@ -12,7 +12,11 @@ That being said, if you found any issue, or have any suggesions, feel free to sh
 <br/>
 <br/>
 
-**Note:** This extension has been modified for PS1 by Jayant Kapoor (f20231099@pilani.bits-pilani.ac.in). Original extension was created for PS2 by the original author.
+**Note:** This extension has been modified and maintained for PS1 by Jayant Kapoor (f20231099@pilani.bits-pilani.ac.in). Original extension was created for PS2 by the original author.
+
+**About the PS1 Modifier:**
+Jayant Kapoor is a BITS Pilani student who has adapted this extension for PS1 students. 
+He will be maintaining the project data and ensuring the extension works smoothly for PS1 preferences.
 
 **Modifications made for PS1:**
 1. Updated the extension to work with PS1 project data structure
@@ -20,6 +24,7 @@ That being said, if you found any issue, or have any suggesions, feel free to sh
 3. Updated the export functionality to save as PS1_Preference.xlsx
 4. Adapted the UI to display PS1-specific project information
 5. Optimized the code for better performance with PS1 data
+6. Will be maintaining and updating excel.json with the latest PS1 project data
 <br/>
 <br/>
 
@@ -28,6 +33,7 @@ WHY USE THIS EXTENSION: <br/>
 2) The injected pannel also provide new ways to add/remove items to the top or to the buttom of the already sorted list, helping in much faster. <br/>
 3) The extension also allows you to save and load your preferences as an exel sheet. This way, you can share it with your friends, and also have a backup in case PSMS decides to not save your preferences, like it sometimes likes to do.
 4) Undo and redo incase you mess something up!
+5) The project data (excel.json) will be regularly updated to ensure you have access to the latest PS1 project information.
 
 <br/>
 <img src="https://i.imgur.com/Y8sYBaz.png" width="1024" height="416" />
@@ -42,6 +48,7 @@ While we wait for the extension to get approved on the Chrome Store, the only wa
 4) Click on 'Load unpacked' and point to the extracted folder. <br/>
 5) Goto https://psms.bits-pilani.ac.in/stationpreference/selectpreference AND REFRESH THE PAGE ONCE.
 6) Until the extension is uplodaded on Chrome Store, you need to remove the old extension and repeat the steps to update it.
+7) To get the latest project data, make sure to update the extension regularly as excel.json will be updated with new project information.
 <br/>
 
 HOW IT WORKS: <br/>
